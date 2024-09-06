@@ -5,7 +5,7 @@
   "main": "init.js",
   "scripts": {
     "start": "node init.js",
-    "watch":"nodemon init.js , nodemon async.js",
+    "watch":"nodemon init.js ",
     
     "test": "echo \"Error: no test specified\" && exit 1"
   },
