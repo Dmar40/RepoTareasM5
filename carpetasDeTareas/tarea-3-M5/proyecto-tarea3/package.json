@@ -1,0 +1,18 @@
+{
+  "name": "proyecto2-t3",
+  "version": "1.0.0",
+  "description": "proyecto asincrono",
+  "main": "init.js",
+  "scripts": {
+    "start": "node init.js",
+    "watch":"nodemon init.js ",
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dumar aranguren",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
