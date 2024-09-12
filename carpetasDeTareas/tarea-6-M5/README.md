@@ -44,12 +44,12 @@ Ejemplo de respuesta:
 server.js
 ```javascript
 
-// Importamos los módulos necesarios, Importamos el Módulo para crear el servidor HTTP
+// Importamos los módulos necesarios para crear el servidor HTTP
 import http from 'http'; 
 import { parse } from 'url'; //Importamos la función parse del Módulo para analizar las URLs.
 
 
-// Definimos un array de objetos products que contiene una lista de productos con id, name y price.
+// Definimos un array de objetos 'products' que contiene una lista de productos con id, name y price.
 const products = [
     { id: 1, name: 'Producto 1', price: 100 },
     { id: 2, name: 'Producto 2', price: 200 },
