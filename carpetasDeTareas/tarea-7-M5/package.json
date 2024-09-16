@@ -1,0 +1,21 @@
+{
+  "name": "api-proyecto",
+  "version": "1.0.0",
+  "description": "api-proyecto",
+  "main": "mi-api.js",
+  "type": "module",
+  "scripts": {
+    "start": "node mi-api.js",
+    "dev": "nodemon mi-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
